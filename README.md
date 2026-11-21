@@ -44,32 +44,8 @@ Requires MATLAB (R2021a or later, for `LineWidth=` name-value syntax and `export
 GraphCode            % draws the figure
 ```
 
-To export a version sized for a single column of a two-column paper (about 3.2 × 2.5 in, 7 pt text, 300 dpi):
-
-```matlab
-fig = gcf;
-set(fig, 'Units', 'inches', 'Position', [1 1 3.2 2.5]);
-set(findall(fig, '-property', 'FontSize'), 'FontSize', 7);
-exportgraphics(fig, 'DataRates.png', 'Resolution', 300);
-exportgraphics(fig, 'DataRates.pdf', 'ContentType', 'vector');
-```
-
-The plot title can be removed (delete the `title(...)` line) when the figure is captioned in the paper.
-
-## Citing this repository
-
-Archived release (replace with your Zenodo DOI after tagging a release):
-
-```
-[Author names] et al., Calcium imaging data rates, GitHub repository, 2026, DOI: [Zenodo DOI]
-```
-
 ## Notes and limitations
 
 - Rates are the maximum reported by each paper's imaging system, not sustained rates in typical experiments.
 - Where a paper does not state a data rate, it was calculated from the reported frame size, frame rate and bit depth; see `Raw Data/`.
 - Year is the publication year.
-
-## License
-
-Add a `LICENSE` file (for example MIT for code and CC-BY-4.0 for data) before archiving.
