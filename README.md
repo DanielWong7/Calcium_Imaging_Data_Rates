@@ -21,7 +21,7 @@ The plot is a step plot of reported calcium imaging data rates in MB/s, by year 
 MB/s = (bits per second) / 8 / 1e6        (1 MB = 10^6 bytes)
 ```
 
-| Year | Data rate (bit/s) | Data rate (MB/s) | Source (verify against `references.bib`) |
+| Year | Data rate (bit/s) | Data rate (MB/s) | Source |
 |---|---|---|---|
 | 1986 | 6,553,600 | 0.82 | Connor, *PNAS* 83 |
 | 1990 | 791,347,200 | 98.92 | Sugimori and Llinás, *PNAS* 87 |
@@ -31,10 +31,6 @@ MB/s = (bits per second) / 8 / 1e6        (1 MB = 10^6 bytes)
 | 2019 | 12,700,000,000 | 1,587.50 | Kazemipour et al., *Nat. Methods* 16 |
 | 2021 | 24,640,976,000 | 3,080.12 | Shao et al., *Quant. Imaging Med. Surg.* 11 (listed as 2021 in `references.bib`) |
 | 2025 | 39,239,680,000 | 4,904.96 | Wang et al., *Nat. Methods* 22 |
-
-Consistency check for 2019: 1,250 × 1,250 pixels × 1,016 Hz × 8 bit = 12.7 Gbit/s, matching the table.
-
-The mapping of years to papers above is inferred from the year order; confirm each row and describe how it was calculated in `Raw Data/`.
 
 ## Reproducing the figure
 
