@@ -10,7 +10,7 @@ The plot is a step plot of reported calcium imaging data rates in MB/s, by year 
 |---|---|
 | `GraphCode.m` | MATLAB script that plots the data-rate figure |
 | `DataRates.pdf` | Exported figure |
-| `Raw Data/` | Source data and notes used to calculate each rate |
+| `RawData.csv/` | Source data and notes used to calculate each rate |
 | `references.bib` | BibTeX entries for the source papers |
 
 ## Data
@@ -44,3 +44,26 @@ GraphCode            % draws the figure
 
 - Rates are the maximum reported by each paper's imaging system, not sustained rates in typical experiments.
 - Where a paper does not state a data rate, it was calculated from the reported frame size, frame rate and bit depth; see `Raw Data/`.
+
+## Citing this repository
+
+If you use this data or code, please cite the archived release:
+
+```
+[Author names] et al., Calcium imaging data rates, GitHub repository, 2026, DOI: [Zenodo DOI]
+```
+
+BibTeX:
+
+```bibtex
+@misc{CalciumImagingDataRates,
+  author       = {Daniel S. M. Wong, Ammer M. S. Abdelhadi},
+  title        = {Calcium Imaging Data Rates},
+  year         = {2026},
+  publisher    = {GitHub},
+  howpublished = {\url{https://github.com/DanielWong7/Calcium_Imaging_Data_Rates}},
+  doi          = {[Zenodo DOI]}
+}
+```
+
+The figure and data support the BioBIS 2027 extended abstract "The Need For Calcium Imaging Acceleration".
