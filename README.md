@@ -50,7 +50,7 @@ GraphCode            % draws the figure
 If you use this data or code, please cite the archived release:
 
 ```
-D. S. M. Wong and A. M. S. Abdelhadi, Calcium imaging data rates, GitHub repository, 2026, DOI: [Zenodo DOI]
+D. S. M. Wong and A. M. S. Abdelhadi, Calcium imaging data rates, GitHub repository, 2026, DOI: doi.org/10.5281/zenodo.24427576
 ```
 
 BibTeX:
@@ -62,7 +62,7 @@ BibTeX:
   year         = {2026},
   publisher    = {GitHub},
   howpublished = {\url{https://github.com/DanielWong7/Calcium_Imaging_Data_Rates}},
-  doi          = {[Zenodo DOI]}
+  doi          = {doi.org/10.5281/zenodo.24427576}
 }
 ```
 
