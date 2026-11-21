@@ -10,7 +10,7 @@ The plot is a step plot of reported calcium imaging data rates in MB/s, by year 
 |---|---|
 | `GraphCode.m` | MATLAB script that plots the data-rate figure |
 | `DataRates.pdf` | Exported figure |
-| `RawData.csv/` | Source data and notes used to calculate each rate |
+| `RawData.csv` | Source data and notes used to calculate each rate |
 | `references.bib` | BibTeX entries for the source papers |
 
 ## Data
