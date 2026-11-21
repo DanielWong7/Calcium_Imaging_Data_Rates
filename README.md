@@ -43,7 +43,7 @@ GraphCode            % draws the figure
 ## Notes and limitations
 
 - Rates are the maximum reported by each paper's imaging system, not sustained rates in typical experiments.
-- Where a paper does not state a data rate, it was calculated from the reported frame size, frame rate and bit depth; see `Raw Data/`.
+- Where a paper does not state a data rate, it was calculated from the reported frame size, frame rate and bit depth; see `RawData.csv`.
 
 ## Citing this repository
 
