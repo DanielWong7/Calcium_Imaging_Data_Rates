@@ -12,7 +12,6 @@ The plot is a step plot of reported calcium imaging data rates in MB/s, by year 
 | `DataRates.pdf` | Exported figure |
 | `Raw Data/` | Source data and notes used to calculate each rate |
 | `references.bib` | BibTeX entries for the source papers |
-| `README.md` | This file |
 
 ## Data
 
