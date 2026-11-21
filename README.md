@@ -50,14 +50,14 @@ GraphCode            % draws the figure
 If you use this data or code, please cite the archived release:
 
 ```
-[Author names] et al., Calcium imaging data rates, GitHub repository, 2026, DOI: [Zenodo DOI]
+D. S. M. Wong and A. M. S. Abdelhadi, Calcium imaging data rates, GitHub repository, 2026, DOI: [Zenodo DOI]
 ```
 
 BibTeX:
 
 ```bibtex
 @misc{CalciumImagingDataRates,
-  author       = {Daniel S. M. Wong, Ammer M. S. Abdelhadi},
+  author       = {Wong, Daniel S. M. and Abdelhadi, Ammer M. S.},
   title        = {Calcium Imaging Data Rates},
   year         = {2026},
   publisher    = {GitHub},
