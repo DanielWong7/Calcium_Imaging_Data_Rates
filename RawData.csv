@@ -1,9 +1,9 @@
-Paper DOI,Animal,Year Published,# Neurons,# Pixels,Frame Rate (FPS),Bit Depth (default 8 bits),FOV,Depth,Layers (for 3d),Data Amount (bits/s),Notes
-10.1073/pnas.83.16.6179,Rat embryo diencephalon cells grown in Petri dish,1986,1,320x512,2-5,,,N/A,N/A,"6,553,600",Frame rate range 2-5 FPS; maximum used. Bit depth assumed 8.
-10.1073/pnas.87.13.5084,Purkinje cell from guinea pig cerebellum,1990,1,512x483,200-400,8 bits,,N/A,N/A,"791,347,200",Frame rate range 200-400 FPS; maximum used.
-10.1023/A:1003243302777,Zebrafish larvae,1998,20,768x513,500,,400x200 um,N/A,N/A,"1,575,936,000",Bit depth assumed 8.
-10.1038/nmeth.2434,Zebrafish larvae,2013,,,,,,,,2222222222,"Cited as about 1 TB per hour (1e12 bytes x 8 / 3600 s); long-run average, not frame size x frame rate x bit depth."
-10.1038/nmeth.4341,Mice,2017,,2560x2160,75,16 bits,,,,"6,635,520,000",
-10.1038/s41592-019-0493-9,Mice,2019,,1250x1250,1016,,,,,"12,700,000,000",Frame size derived from 250 um field of view at 200 nm spacing. Bit depth assumed 8.
-10.21037/qims-20-806,Zebrafish larvae,2021,,995x218x200,71,,,,,"24,640,976,000",Pixel count is x by y by layers (995x218x200). Bit depth assumed 8.
-10.1038/s41592-025-02843-8,Mice,2025,,320x3200,4790,8,,,,"39,239,680,000",
+Paper DOI,Animal,Year Published,# Neurons,# Pixels,Frame Rate (FPS),Bit Depth (default 8 bits),FOV,Depth / Layers (3D),Data Amount (bits/s),Notes
+10.1073/pnas.83.16.6179,Rat embryo diencephalon cells grown in Petri dish,1986,1,320x512,2-5,,,N/A,"6,553,600",Frame rate range 2-5 FPS; maximum used. Bit depth assumed 8.
+10.1073/pnas.87.13.5084,Purkinje cell from guinea pig cerebellum,1990,1,512x483,200-400,8 bits,,N/A,"791,347,200",Frame rate range 200-400 FPS; maximum used.
+10.1023/A:1003243302777,Zebrafish larvae,1998,20,768x513,500,,400x200 um,N/A,"1,575,936,000",Bit depth assumed 8.
+10.1038/nmeth.2434,Zebrafish larvae,2013,,,,,,,2222222222,"Cited as about 1 TB per hour (1e12 bytes x 8 / 3600 s); long-run average, not frame size x frame rate x bit depth."
+10.1038/nmeth.4341,Mice,2017,,2560x2160,75,16 bits,,,"6,635,520,000",
+10.1038/s41592-019-0493-9,Mice,2019,,1250x1250,1016,,,,"12,700,000,000",Frame size derived from 250 um field of view at 200 nm spacing. Bit depth assumed 8.
+10.21037/qims-20-806,Zebrafish larvae,2021,,995x218,71,,,200 layers,"24,640,976,000",Pixels are per layer; 995x218 pixels x 200 layers. Bit depth assumed 8.
+10.1038/s41592-025-02843-8,Mice,2025,,320x3200,4790,8,,,"39,239,680,000",
