@@ -29,7 +29,7 @@ MB/s = (bits per second) / 8 / 1e6        (1 MB = 10^6 bytes)
 | 2013 | 2,222,222,222 | 277.78 | Ahrens et al., *Nat. Methods* 10 |
 | 2017 | 6,635,520,000 | 829.44 | Nöbauer et al., *Nat. Methods* 14 |
 | 2019 | 12,700,000,000 | 1,587.50 | Kazemipour et al., *Nat. Methods* 16 |
-| 2021 | 24,640,976,000 | 3,080.12 | Shao et al., *Quant. Imaging Med. Surg.* 11 (listed as 2021 in `references.bib`) |
+| 2021 | 24,640,976,000 | 3,080.12 | Shao et al., *Quant. Imaging Med. Surg.* 11 |
 | 2025 | 39,239,680,000 | 4,904.96 | Wang et al., *Nat. Methods* 22 |
 
 ## Reproducing the figure
